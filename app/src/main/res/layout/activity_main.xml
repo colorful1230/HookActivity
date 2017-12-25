@@ -4,6 +4,13 @@
     android:layout_height="match_parent" >
 
     <Button
+        android:id="@+id/start_target_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start target activity"
+        android:onClick="onStartTargetActivity"/>
+
+    <Button
         android:id="@+id/hook_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

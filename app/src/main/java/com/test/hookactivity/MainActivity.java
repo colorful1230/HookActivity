@@ -23,4 +23,10 @@ public class MainActivity extends Activity {
         intent.setClassName(this, "com.test.libdemo.LibActivity");
         startActivity(intent);
     }
+
+    public void onStartTargetActivity(View view) {
+        Intent intent = new Intent();
+        intent.setPackage("com.test.hookactivity.TargetActivity");
+        startActivity(intent);
+    }
 }
